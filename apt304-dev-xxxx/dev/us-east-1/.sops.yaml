@@ -1,0 +1,3 @@
+creation_rules:
+  # Encrypt with AWS KMS. The ARN of the kms key followed by a + and the arn of the role to assume
+  - kms: 'arn:aws:kms:us-east-1:xxxx:key/483bfdfc-0601-418c-a61e-d315d142e30a+arn:aws:iam::xxxx:role/kms-sops'
